@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "dd4dc91a-0794-40b5-a2dc-2e7ae79d1d33",
+		"name": "My Postman Collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25913984"
+	},
+	"item": [
+		{
+			"name": "Api Task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code should be 200\", function () {\r",
+							" pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([201,200]);\r",
+							"});\r",
+							"\r",
+							"    pm.test(\"Status code name has string\", function () {\r",
+							"        pm.response.to.have.status(\"OK\");\r",
+							"    });\r",
+							"   \r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/15036f85a35d875ecfdf",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"15036f85a35d875ecfdf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
