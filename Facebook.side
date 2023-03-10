@@ -1,0 +1,63 @@
+{
+  "id": "01337868-3d63-4823-a0ae-68df57c31c51",
+  "version": "2.0",
+  "name": "Facebook",
+  "url": "https://web.facebook.com",
+  "tests": [{
+    "id": "79106084-467c-41a2-a9ea-113a24ff307d",
+    "name": "My Facebook",
+    "commands": [{
+      "id": "ebf1e6a0-14f7-471a-8d47-84843a49256b",
+      "comment": "",
+      "command": "open",
+      "target": "/Shogoadebayo/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "944a5b5a-050a-4cc6-9de9-c4dc3cef897f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x713",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "735a539d-38fe-4530-83fe-b0dc24de2602",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "009569e5-9365-49a6-a2d2-085fc882c643",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,577)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af4801bc-4024-4773-9192-f66274e6bb52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,666)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "436cf66c-2725-4f59-9179-66dc4cb9ee0b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1382)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9248eb3c-4051-4984-acc8-27c2d631030e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["79106084-467c-41a2-a9ea-113a24ff307d"]
+  }],
+  "urls": ["https://web.facebook.com/"],
+  "plugins": []
+}
